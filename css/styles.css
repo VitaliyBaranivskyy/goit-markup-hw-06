@@ -273,19 +273,22 @@ img {
 
 .team-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 72px;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-list-item {
-  margin: 0 auto;
-  background-color: #ffffff;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
   border-radius: 0 0 4px 4px;
-  width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #fff;
 }
 
 .team-photo {
@@ -923,20 +926,10 @@ img {
   /* -------Team tab---------- */
 
   .team-list {
-    justify-content: flex-start;
+    display: flex;
     flex-direction: row;
-    gap: 64px 24px;
     flex-wrap: wrap;
-  }
-
-  .team-list-item {
-    /* margin: 0; */
-    /* width: 264px; */
-    width: calc((100% - 24px) / 2);
-  }
-
-  .cont-team-info {
-    margin: 0;
+    gap: 64px 24px;
   }
   /* -------Portfolio tab---------- */
 

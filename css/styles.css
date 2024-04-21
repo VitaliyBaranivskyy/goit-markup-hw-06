@@ -493,25 +493,26 @@ img {
 }
 
 /*-----------------Foter Subscribe----------------- */
-.navischo {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  justify-content: flex-end;
-}
 
 .footer-subscribe {
-  width: 453px;
-  min-height: 80px;
-  margin-left: 80px;
 }
 
 .footer-subscribe-text {
+  display: block;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
   margin-bottom: 16px;
+}
+.navischo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
 }
 
 .sumb-label {
@@ -520,7 +521,7 @@ img {
 .footer-subscribe-input {
   border: 1px solid #fff;
   border-radius: 4px;
-  min-width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;

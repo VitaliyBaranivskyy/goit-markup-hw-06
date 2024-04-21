@@ -394,16 +394,20 @@ img {
 /* Footer */
 .footer {
   background: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .footer-container-new {
-  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
 }
 
 .foter-logo {
@@ -416,6 +420,8 @@ img {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  max-width: 116px;
+  align-self: center;
 }
 
 .footer-logo-part {
@@ -433,7 +439,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  max-width: 288px;
 }
 
 .soc-media {
@@ -1088,5 +1094,178 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  /* Footer */
+  .footer {
+    background: #2e2f42;
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-container-new {
+    margin-right: 120px;
+  }
+
+  .foter-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+
+  .footer-logo-part {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+  }
+
+  .soc-media {
+  }
+
+  .soc-media-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .footer-soc-list {
+    display: flex;
+    gap: 16px;
+  }
+  .footer-soc-item {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-soc-link:hover {
+    background-color: #31d0aa;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-soc-link:focus {
+    background-color: #31d0aa;
+  }
+
+  .footer-icon {
+    fill: #f4f4fd;
+  }
+
+  /*-----------------Foter Subscribe----------------- */
+  .navischo {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .footer-subscribe {
+    width: 453px;
+    min-height: 80px;
+    margin-left: 80px;
+  }
+
+  .footer-subscribe-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .sumb-label {
+  }
+
+  .footer-subscribe-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    min-width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  .footer-subscribe-input::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  .footer-subscribe-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    outline: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: #4d5ae5;
+    cursor: pointer;
+  }
+
+  .footer-subscribe-btn:hover {
+    background-color: #404bbf;
+  }
+
+  .footer-subscribe-icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin-left: 16px;
   }
 }

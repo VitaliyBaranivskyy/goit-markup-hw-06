@@ -260,11 +260,6 @@ img {
   background: #f4f4fd;
 }
 
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
 .team-title {
   font-size: 36px;
   font-weight: 700;

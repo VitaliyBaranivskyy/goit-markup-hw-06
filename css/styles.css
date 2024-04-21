@@ -950,6 +950,25 @@ img {
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
+  /* -------Footer tab---------- */
+  .footer-container {
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 0;
+    width: 584px;
+  }
+  .footer-container-new {
+    margin-right: 24px;
+  }
+  .footer-logo {
+    margin-bottom: 16px;
+    align-self: start;
+  }
+  .footer-text {
+    width: 264px;
+  }
 }
 
 /* DSK Version */

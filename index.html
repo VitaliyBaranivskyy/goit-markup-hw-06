@@ -331,13 +331,28 @@
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="portfolio-cover">
-                <img
-                  class="list-item-pic"
-                  src="./images/p-dsk1.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="./images/p-dsk1.jpg 1x, ./images/p-dsk1-2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images/p-tab1.jpg 1x, ./images/p-tab1-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images/p-mob1.jpg 1x, ./images/p-mob1-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    class="list-item-pic"
+                    src="./images/p-dsk1.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -397,7 +412,7 @@
               <div class="portfolio-cover">
                 <img
                   class="list-item-pic"
-                  src="./imagesp-dsk4.jpg"
+                  src="./images/p-dsk4.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"

@@ -923,6 +923,7 @@ img {
     color: #434455;
   }
   /* -------Team tab---------- */
+
   .team-list {
     justify-content: flex-start;
     flex-direction: row;
@@ -932,9 +933,6 @@ img {
 
   .team-list-item {
     width: calc((100% - 24px) / 2);
-  }
-
-  .cont-team-info {
   }
 }
 
@@ -1060,58 +1058,11 @@ img {
 
   /* ------Team dsk--------- */
 
-  .section-team {
-    background: #f4f4fd;
-  }
-
   .team-list {
-    display: flex;
     gap: 24px;
   }
 
-  .team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 72px;
-  }
-
   .team-list-item {
-    border-radius: 0 0 4px 4px;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
     width: calc((100% - 24px * 3) / 4);
-  }
-
-  .team-photo {
-  }
-
-  .cont-team-info {
-    margin: 0 auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-
-  .team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    text-align: center;
-  }
-
-  .team-position {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 8px;
   }
 }

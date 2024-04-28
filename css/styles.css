@@ -889,6 +889,10 @@ img {
 
 @media screen and (min-width: 768px) {
   /*----Header tab-------*/
+  .header {
+    padding: 0;
+  }
+
   .open-menu-btn {
     display: none;
   }
